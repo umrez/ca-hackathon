@@ -44,7 +44,7 @@ export default function DashboardPage() {
       <div className="bg-white p-10 rounded-2xl shadow-md w-full max-w-md text-center">
         <Title level={1}>Welcome to Your Dashboard!</Title>
         <Paragraph className="text-lg text-gray-600 mt-4">
-          You're logged in. Here, you can manage your profile, settings, and
+          You are logged in. Here, you can manage your profile, settings, and
           other features.
         </Paragraph>
         <Button type="primary" className="mt-6" onClick={handleLogout}>
