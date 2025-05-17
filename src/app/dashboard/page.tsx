@@ -10,7 +10,7 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // Check if user is logged in by verifying if there's a token or credentials in localStorage,
+    // Check if user is logged in by verifying if there's a token or credentials in localStorage.!
     const userToken = localStorage.getItem("userCredentials");
 
     if (!userToken) {
